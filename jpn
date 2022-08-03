@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <main>
+    <title>Japonia</title>
+    <link rel="stylesheet" href="../1/style.css" />
+  </main>
+  <body>
+    <div id="contener">
+      <div id="menu-gora">
+        <div id="polozenie">
+          <a href="#"><h1>POŁOŻENIE</h1></a>
+        </div>
+        <div id="kraje">
+          <a href="#"><h1>KRAJE</h1></a>
+        </div>
+        <div id="zycie">
+          <a href="#"> <h1>ŻYCIE</h1></a>
+        </div>
+      </div>
+      <div id="tlo">
+        <img src="../1/zdj/gora.jpeg" alt="Japonia" />
+      </div>
+      <div id="anime">
+        <img src="../1/zdj/anime.jpg" alt="anime" />
+      </div>
+      <div id="kuchnia">
+        <img src="../1/zdj/kuchnia.jpeg" alt="kuchnia" />
+      </div>
+      <div id="teren">
+        <img src="../1/zdj/tereny.jpeg" alt="miasta" />
+      </div>
+      <div id="opisy">
+        <div id="o-anime">
+          <ul>
+            <li id="ul-anime">Naruto</li>
+            <li id="ul-anime">Dragon Ball</li>
+            <li id="ul-anime">Ghost in the Shell</li>
+            <li id="ul-anime">Neon Genesis Evangelion</li>
+            <li id="ul-anime">Fullmetal Alchemist</li>
+            <li id="ul-anime">Death Note</li>
+            <li id="ul-anime">Pokemon</li>
+            <li id="ul-anime">One-Punch Man</li>
+          </ul>
+        </div>
+        <div id="o-kuchnia">
+          <ul>
+            <li id="ul-kuchnia">Sushi</li>
+            <li id="ul-kuchnia">Chirashi</li>
+            <li id="ul-kuchnia">Ramen</li>
+            <li id="ul-kuchnia">Udon</li>
+            <li id="ul-kuchnia">Onigiri</li>
+            <li id="ul-kuchnia">Matcha</li>
+            <li id="ul-kuchnia">Tempura</li>
+            <li id="ul-kuchnia">Mochi</li>
+          </ul>
+        </div>
+        <div id="o-teren">
+          <ul id="ul-teren">
+            <li id="ul-teren">Tokio</li>
+            <li id="ul-teren">Nikko</li>
+            <li id="ul-teren">Nara</li>
+            <li id="ul-teren">Kioto</li>
+            <li id="ul-teren">Kobe</li>
+            <li id="ul-teren">Himeji</li>
+            <li id="ul-teren">Hiroshima</li>
+            <li id="ul-teren">Miyajima</li>
+            <li id="ul-teren">Arashiyama</li>
+          </ul>
+        </div>
+      </div>
+      <div id="opis">
+        <p id="artykul">
+          <b>Japonia (jap. 日本 Nihon lub Nippon) </b> – państwo wyspiarskie
+          położone na wąskim łańcuchu wysp na zachodnim Pacyfiku, u wschodnich
+          wybrzeży Azji, o długości 3,3 tys. km. Archipelag rozciąga się niemal
+          południkowo, tworząc łagodny łuk wygięty w stronę kontynentu. Punktem
+          wysuniętym najdalej na północ jest przylądek Sōya (45°31′N) na
+          północnym krańcu wyspy Hokkaido, a punktem wysuniętym najdalej na
+          południe jest mini-archipelag trzech wysepek o nazwie
+          Oki-no-Tori-shima (20°25′N). Natomiast w przypadku wzięcia pod uwagę
+          wyłącznie czterech głównych wysp, najbardziej wysuniętym na północ
+          punktem jest przylądek Sōya, a najbardziej wysuniętym na południe
+          punktem jest przylądek Sata (30°59′N) na krańcu półwyspu Ōsumi na
+          wyspie Kiusiu. Stolicą państwa jest Tokio. Archipelag składa się z
+          czterech głównych wysp: Hokkaido, Honsiu, Sikoku i Kiusiu (97% obszaru
+          lądowego) oraz 6848 mniejszych wysp. Według danych z 2021 roku, łączna
+          powierzchnia kraju wynosi 377 975 km²[4]. Większość powierzchni jest
+          pokryta górami, a najwyższym szczytem jest wulkan Fudżi (3776 m). Z
+          tego powodu prawie połowa ludności zamieszkuje nadmorski pas nizin
+          rozciągający się między Tokio a Osaką i Nagoją. Tam też rozwijało się
+          rolnictwo i przemysł. Obszar ten stanowi 13% terytorium kraju. Japonia
+          jest położona na styku płyt tektonicznych, w obrębie „ognistego
+          pierścienia Pacyfiku”. Stałym zagrożeniem są więc trzęsienia ziemi,
+          wybuchy wulkanów i fale tsunami. Stąd wynikają różnice danych
+          podających liczbę wysp i odmienną wielkość powierzchni kraju. W
+          sierpniu i wrześniu nad archipelagiem istnieje wzmożone ryzyko
+          występowania tajfunów, powstających z reguły na zachodnim Pacyfiku. Z
+          liczbą ludności wynoszącą około 126,5 mln osób, kraj ten zajmuje
+          dziesiąte – pod tym względem – miejsce na świecie. Według danych ONZ i
+          WHO przeciętna długość życia jest najwyższa na świecie. Japonia należy
+          do grupy krajów wysoko rozwiniętych – jest ona jedną z czołowych potęg
+          gospodarczych świata. Zgodnie z przyjętą w 1947 demokratyczną
+          konstytucją, Japonia jest monarchią parlamentarną z cesarzem jako
+          symbolem jedności państwa i wybieranym w wyborach powszechnych
+          dwuizbowym parlamentem.
+        </p>
+      </div>
+
+      <div id="stopa"><i>Ignacy Rasiński 03.08.2022</i></div>
+    </div>
+  </body>
+</html>
+
+
+
+
+CSS 
+#contener{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    
+}
+#tlo{
+    width: 100%;
+    height: 1000px;
+}
+#polozenie{
+    display: inline-block;
+    width: 30%;
+    height: 53px;
+    padding: 3px 10px 3px 10px;
+    border-right: 1px solid rgb(56, 56, 247);
+    text-align: center;
+    line-height: 20px;
+    
+}
+#polozenie:hover{
+    background-color: darkgoldenrod;
+}
+#zycie{
+    display: inline-block;
+    width: 30%;
+    height: 53px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+#zycie:hover{
+background-color: darkgoldenrod;
+
+
+}
+#kraje{
+    display: inline-block;
+    width: 30%;
+    height: 53px;
+    padding: 3px 10px 3px 10px;
+    border-right: 1px solid rgb(56, 56, 247);
+    text-align: center;
+    line-height: 20px;
+    
+}
+#kraje:hover{
+    background-color: darkgoldenrod;
+}
+
+#menu-gora{
+    margin-top: 0px ;
+    margin-left: 0px auto;
+    height: 60px;
+    background-color: rgb(143, 143, 252);
+    color: #fcafff;
+}
+a{
+    text-decoration: none;
+    color: #fcafff;
+}
+#o-anime{
+    display: inline-block;
+    width: 33%;
+    height: 270px;
+    background-color: #fdc8ffd2;
+    border:5px solid pink;
+    margin-right: 10px;
+    
+}
+#o-teren{
+    display: inline-block;
+    width: 32%;
+    float: right;
+    height: 270px;
+    background-color: #fdc8ffd2;
+    border:5px solid pink;
+    
+    
+}
+#o-kuchnia{
+    display: inline-block;
+    width: 32%;
+    height: 270px;
+    background-color: #fdc8ffd2;
+    border:5px solid pink;
+    margin-top: 0px;
+    
+    
+}
+#anime{
+    display:inline-block;
+    width: 33%;
+    height: 270px;
+    color: white;
+    border: 5px solid rgba(255, 192, 203, 0.863);
+    margin-right: 10px;
+    
+    
+    
+    
+}
+#kuchnia{
+    display: inline-block;
+    width: 32%;
+    height: 270px;
+    color: white;
+    border: 5px solid rgba(255, 192, 203, 0.863);
+    
+    
+    
+}
+#teren{
+    display: inline-block;
+    width: 32%;
+    float: right;
+    height: 270px;
+    color: white;
+    border: 5px solid rgba(255, 192, 203, 0.863);
+    
+}
+body{
+    background-image: url("../1/zdj/kwiatki.jpeg");
+    background-repeat: repeat;
+}
+#opisy{
+    margin-top:0px
+}
+#opis {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+#artykul{
+    text-align: justify;
+    column-count: 2;
+    column-rule: 10px solid pink;
+    padding-top: 30px;
+    font-size: larger;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bold;
+}
+#ul-anime::before{
+    background-image: url("../1/zdj/anime-icon.png");
+    background-size: 10px 10px;
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    content:"";
+}
+#ul-kuchnia::before{
+    background-image: url("../1/zdj/ramen.png");
+    background-size: 10px 10px;
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    content:"";
+}
+#ul-teren::before{
+    background-image: url("../1/zdj/teren-icon.png");
+    background-size: 10px 10px;
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    content:"";
+}
+#stopa{
+    display: fixed;
+    width: 80%;
+    height:20px;
+    bottom: 0px;
+    background-color: rgb(173, 169, 169);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    color: black;
+    text-align: right;
+
+    
+}
